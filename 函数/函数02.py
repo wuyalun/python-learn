@@ -34,7 +34,7 @@
 # print_line3("*", 80)
 
 
-# # 需求4 连续打印5行
+# 需求4 连续打印5行
 # def print_line4(char, times):
 #     """定义函数,自定义打印内容"""
 #     print(char * times)
@@ -53,9 +53,18 @@
 # print_line41()
 
 
+def print_line5(char, times):
+    """打印多行分割线
+
+    :param char: 分割线使用的分割字符
+    :param times: 分割线重复的次数
+    :return:
+    """
+    print(char * times)
+    return
 
 
-
+print_line5("+", 50)
 
 
 
