@@ -11,3 +11,5 @@ print(name_list.count("翟宪伟"))
 # remove删除第一个出现的元素，即：3号位的翟宪伟
 name_list.remove("翟宪伟")
 print(name_list)
+
+
