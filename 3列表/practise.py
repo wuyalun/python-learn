@@ -66,4 +66,33 @@
 # print(name_list)
 
 #################################################
+name_list = ["a", "b", "c", "d"]
+# 取值
+print(name_list[0])
+# 取索引
+print(name_list.index("c"))
+# # 修改列表指定位置数据
+name_list[2] = "cc"
+print(name_list)
+# # 追加元素
+name_list.append("e")
+print(name_list)
+# # 任意位置插入
+name_list.insert(0,"aaa")
+# # 扩充列表
+name_tmp = ["aaa","bbb"]
+name_list.extend(name_tmp)
+print(name_list)
+# # 删除,指定元素删除
+name_list.remove("a")
+print(name_list)
+# # 删除,pop弹出
+name_list.pop()
+print(name_list)
+# # 删除,pop弹出,指定位置弹出
+name_list.pop(0)
+print(name_list)
 
+# # 删除 清空
+name_list.clear()
+print(name_list)
