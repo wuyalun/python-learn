@@ -20,5 +20,3 @@
 # # 某个子字符串出现的位置
 # print(str.index("he"))
 # print(str.index("d"))
-
-
