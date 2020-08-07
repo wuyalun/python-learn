@@ -10,8 +10,8 @@ print(name_list)
 # print(name_list)
 
 # 逆序(反转)
-# name_list.reverse()
-# print(name_list)
+name_list.reverse()
+print(name_list)
 
 
 
