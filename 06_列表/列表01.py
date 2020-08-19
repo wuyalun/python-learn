@@ -1,6 +1,6 @@
 # 列表的常用操作
 name_list = ["吴亚伦", "高远哲", "王兴辉", "翟宪伟"]
-print(name_list)
+# print(name_list)
 
 # 取值
 # name_list[]
@@ -13,7 +13,7 @@ print(name_list)
 
 # 修改列表指定位置数据
 # name_list[1] = "gaoyuanzhe"
-# # name_list[4] = 'aaa' # 索引超出范围，会报错，不会进行赋值操作
+# name_list[4] = 'aaa' # 索引超出范围，会报错，不会进行赋值操作
 # print(name_list)
 
 
@@ -34,13 +34,17 @@ print(name_list)
 # 删除
 # remove 删除指定元素
 # name_list.remove("吴亚伦")
+# print(name_list)
 
 # pop 弹出(指定位置弹出)
-# name_list.pop() # 默认弹出最后一个
+# name_list.pop()  # 默认弹出最后一个
+# print(name_list)
 # name_list.pop(1)    # 支持弹出指定元素
+# print(name_list)
 
 # clear 清空整个列表
-# name_list.clear()
+name_list.clear()
+print(name_list)
 
 # del 关键词删除(了解即可，不建议使用)
 # del name_list[1]

@@ -1,23 +1,23 @@
-# 定义有times组测试数据
-times = int(input("请输入测试数据有几组:"))
-# 定义循环计数器,循环接收输入的times组数据
-i = 0
-
-# 默认取走小球的个数,至少可以拿走1个
-num = 1
-
-if times < 0:
-    print("无效测试组")
+#!/usr/bin/env python
+# coding=utf-8
 
 
-# 定义输入的N（小球个数）和 M（跳过M-1个号码取球）
-while i < times:
-
-    # str = input()
-    # a = []
-
-    print("Case #%d:组数据是 %d" % (i+1, 1))
-    i += 1
+def gcd(a, b):
+    """辗转相除求最大公约数"""
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
 
 
-
+Group = int(input())
+for g_val in range(Group):
+    input_str = input()
+    if input_str != "":
+        input_list = input_str.split()
+        n = int(input_list[0])
+        m = int(input_list[1])
+        result = gcd(n, m)
+        print("Case #%d: %d" % (g_val + 1, n / result))
+    else:
+        break
