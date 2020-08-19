@@ -25,12 +25,3 @@ for g_val in range(Group):
         print("Case #%d: %s" % (g_val + 1, " ".join(str(i) for i in input_list[1:])))
     else:
         break
-
-
-
-    input_list = [int(item) for item in input().split()]
-    for i in range(2, length):
-        if(input_str[i] < input_str[min_location]):
-            min_location = i
-    temp = input_str[min_location]
-    input_str[min_location] = input_str[length]
