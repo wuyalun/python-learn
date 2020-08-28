@@ -1,7 +1,7 @@
 import math
 
 Group = int(input())
-for g_val in range(T):
+for g_val in range(Group):
     inputStr = input()
     if inputStr != "":
         M = 0
@@ -17,16 +17,6 @@ for g_val in range(T):
                 continue
             elif n1*(2*a1+n1-1)/2 == N:
                 M += 1
-        print("Case #%d: %d" % (n + 1, M))
+        print("Case #%d: %d" % (g_val + 1, M))
     else:
         break
-#
-# import math
-# Group = int(input())  # 测试数据组数
-# for g_val in range(Group):
-#     inputStr = input()
-#     if inputStr != "":
-#      a = 1
-#
-#     else:
-#         break

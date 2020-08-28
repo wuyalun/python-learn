@@ -1,5 +1,8 @@
 # !/usr/bin/env python
 # coding=utf-8
+"""
+
+"""
 Group = int(input())
 for g_val in range(Group):
     n = int(input())
